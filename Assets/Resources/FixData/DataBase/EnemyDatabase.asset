@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3baa3d7d48ad554f9084ff60186f855, type: 3}
+  m_Name: EnemyDatabase
+  m_EditorClassIdentifier: 
+  EnemyParamList:
+  - _id: 0
+    _name: "\u30B9\u30E9\u30A4\u30E0"
+    _describe: "\u3042\u3042\u3042"
+    _HP: 500
+    _MP: 0
+    _MAG: 10
+    _MND: 10
+    _AGI: 10
+    _HIT: 90
+    _DEX: 1
+    _element: 1
+    _resistanceFire: 200
+    _resistanceWater: 75
+    _resistanceWind: 100
+    _resistanceEarth: 100
+    _dropEXP: 10
+    _dropG: 10
+    _dropItem1: 0
+    _dropChance1: 50
+    _dropItem2: 16
+    _dropChance2: 10
+  - _id: 1
+    _name: "\u30B3\u30DC\u30EB\u30C8"
+    _describe: "\u3044\u3044\u3044"
+    _HP: 600
+    _MP: 30
+    _MAG: 30
+    _MND: 30
+    _AGI: 35
+    _HIT: 80
+    _DEX: 5
+    _element: 3
+    _resistanceFire: 110
+    _resistanceWater: 110
+    _resistanceWind: 100
+    _resistanceEarth: 75
+    _dropEXP: 30
+    _dropG: 30
+    _dropItem1: 5
+    _dropChance1: 25
+    _dropItem2: 8
+    _dropChance2: 2
+  - _id: 2
+    _name: "\u30B4\u30D6\u30EA\u30F3"
+    _describe: "\u3046\u3046\u3046"
+    _HP: 600
+    _MP: 0
+    _MAG: 50
+    _MND: 50
+    _AGI: 45
+    _HIT: 80
+    _DEX: 1
+    _element: 4
+    _resistanceFire: 100
+    _resistanceWater: 100
+    _resistanceWind: 100
+    _resistanceEarth: 100
+    _dropEXP: 50
+    _dropG: 50
+    _dropItem1: 6
+    _dropChance1: 25
+    _dropItem2: 8
+    _dropChance2: 5
+  - _id: 3
+    _name: "\u30D5\u30EC\u30A4\u30E0\u30B4\u30D6\u30EA\u30F3"
+    _describe: "\u3048\u3048\u3048"
+    _HP: 800
+    _MP: 50
+    _MAG: 100
+    _MND: 100
+    _AGI: 70
+    _HIT: 100
+    _DEX: 1
+    _element: 0
+    _resistanceFire: 50
+    _resistanceWater: 150
+    _resistanceWind: 75
+    _resistanceEarth: 110
+    _dropEXP: 100
+    _dropG: 100
+    _dropItem1: 15
+    _dropChance1: 100
+    _dropItem2: -1
+    _dropChance2: -1

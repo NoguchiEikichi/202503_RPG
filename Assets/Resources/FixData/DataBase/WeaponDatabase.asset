@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183dc6634c8839341b173f72fd4aed5f, type: 3}
+  m_Name: WeaponDatabase
+  m_EditorClassIdentifier: 
+  datas:
+  - _id: 0
+    _name: "\u30EB\u30D3\u30FC\u30B9\u30BF\u30C3\u30D5"
+    _describe: "\u6B66\u5668"
+    _element: 0
+    _status: 8
+    _effect: 10
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 200
+  - _id: 1
+    _name: "\u30DE\u30B0\u30DE\u306E\u6756"
+    _describe: "\u6B66\u5668"
+    _element: 0
+    _status: 8
+    _effect: 50
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 500
+  - _id: 2
+    _name: "\u30B8\u30E3\u30C3\u30AF\u30AA\u30FC\u30E9\u30F3\u30BF\u30F3"
+    _describe: "\u6B66\u5668"
+    _element: 0
+    _status: 8
+    _effect: 100
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 1000
+  - _id: 3
+    _name: "\u6CE1\u6CAB\u306E\u6756"
+    _describe: "\u6B66\u5668"
+    _element: 1
+    _status: 9
+    _effect: 10
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 200
+  - _id: 4
+    _name: "\u6D77\u9CF4\u308A\u306E\u69CD"
+    _describe: "\u6B66\u5668"
+    _element: 1
+    _status: 8
+    _effect: 50
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 500
+  - _id: 5
+    _name: "\u30EA\u30F4\u30A1\u30A4\u30A2\u30B5\u30F3"
+    _describe: "\u6B66\u5668"
+    _element: 1
+    _status: 9
+    _effect: 100
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 1000
+  - _id: 6
+    _name: "\u7FE1\u7FE0\u306E\u30AA\u30AB\u30EA\u30CA"
+    _describe: "\u6B66\u5668"
+    _element: 2
+    _status: 8
+    _effect: 10
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 200
+  - _id: 7
+    _name: "\u84BC\u7A79\u306E\u7AEA\u7434"
+    _describe: "\u6B66\u5668"
+    _element: 2
+    _status: 8
+    _effect: 50
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 500
+  - _id: 8
+    _name: "\u30CF\u30EB\u30D4\u30E5\u30A4\u30A2"
+    _describe: "\u6B66\u5668"
+    _element: 2
+    _status: 8
+    _effect: 100
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 1000
+  - _id: 9
+    _name: "\u9EC4\u7389\u306E\u76FE"
+    _describe: "\u6B66\u5668"
+    _element: 3
+    _status: 9
+    _effect: 10
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 200
+  - _id: 10
+    _name: "\u30AC\u30A4\u30A2\u306E\u69CC"
+    _describe: "\u6B66\u5668"
+    _element: 3
+    _status: 9
+    _effect: 50
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 500
+  - _id: 11
+    _name: "\u30D9\u30D2\u30FC\u30E2\u30B9"
+    _describe: "\u6B66\u5668"
+    _element: 3
+    _status: 9
+    _effect: 100
+    _addEffect: "\u7121\u3057"
+    _max: 99
+    _money: 1000

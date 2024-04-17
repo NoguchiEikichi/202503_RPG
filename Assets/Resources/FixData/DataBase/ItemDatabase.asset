@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f9dc7bf1de58454f9f0ac9c8c1f4aba, type: 3}
+  m_Name: ItemDatabase
+  m_EditorClassIdentifier: 
+  ItemParamList:
+  - _id: 0
+    _name: "\u521D\u7D1A\u547D\u85AC"
+    _describe: "\u5373\u52B9\u6027\u306E\u3042\u308B\u547D\u85AC\u3002\u304B\u3059\u308A\u50B7\u306A\u3089\u3059\u3050\u6CBB\u308B\u3002"
+    _group: 1
+    _effect: 300
+    _addEffect: "\u7121\u3057"
+    _target: 0
+    _timeng: 0
+    _max: 12
+    _money: 100
+  - _id: 1
+    _name: "\u4E2D\u7D1A\u547D\u85AC"
+    _describe: "\u719F\u7DF4\u8005\u306B\u3088\u3063\u3066\u8ABF\u5408\u3055\u308C\u305F\u547D\u85AC\u3002\u9AA8\u6298\u3082\u6CBB\u305B\u308B\u3002"
+    _group: 1
+    _effect: 600
+    _addEffect: "\u7121\u3057"
+    _target: 0
+    _timeng: 0
+    _max: 8
+    _money: 500
+  - _id: 2
+    _name: "\u4E0A\u7D1A\u547D\u85AC"
+    _describe: "\u5E0C\u5C11\u306A\u7D20\u6750\u304B\u3089\u8ABF\u5408\u3055\u308C\u305F\u547D\u85AC\u3002\u751F\u304D\u3066\u3044\u308C\u3070\u6CBB\u305B\u308B\u3002"
+    _group: 1
+    _effect: 1000
+    _addEffect: "\u7121\u3057"
+    _target: 0
+    _timeng: 0
+    _max: 6
+    _money: 1000
+  - _id: 3
+    _name: "\u4F4E\u7D1A\u9999\u7089"
+    _describe: "\u547D\u85AC\u306E\u7D20\u6750\u304C\u4F7F\u308F\u308C\u305F\u304A\u9999\u3002\u5468\u56F2\u306B\u3044\u308B\u3068\u5143\u6C17\u306B\u306A\u308B\u3002"
+    _group: 1
+    _effect: 300
+    _addEffect: "\u7121\u3057"
+    _target: 1
+    _timeng: 0
+    _max: 10
+    _money: 400
+  - _id: 4
+    _name: "\u9AD8\u7D1A\u9999\u7089"
+    _describe: "\u547D\u85AC\u306E\u7D20\u6750\u304C\u4F7F\u308F\u308C\u305F\u304A\u9999\u3002\u5468\u56F2\u306B\u3044\u308B\u3068\u5143\u6C17\u306B\u306A\u308B\u3002"
+    _group: 1
+    _effect: 600
+    _addEffect: "\u7121\u3057"
+    _target: 1
+    _timeng: 0
+    _max: 7
+    _money: 800
+  - _id: 5
+    _name: "\u521D\u7D1A\u970A\u85AC"
+    _describe: "\u9B54\u529B\u56DE\u5FA9"
+    _group: 1
+    _effect: 300
+    _addEffect: "\u7121\u3057"
+    _target: 0
+    _timeng: 0
+    _max: 12
+    _money: 100
+  - _id: 6
+    _name: "\u4E2D\u7D1A\u970A\u85AC"
+    _describe: "\u9B54\u529B\u56DE\u5FA9"
+    _group: 1
+    _effect: 600
+    _addEffect: "\u7121\u3057"
+    _target: 0
+    _timeng: 0
+    _max: 8
+    _money: 500
+  - _id: 7
+    _name: "\u4E0A\u7D1A\u970A\u85AC"
+    _describe: "\u9B54\u529B\u56DE\u5FA9"
+    _group: 1
+    _effect: 1000
+    _addEffect: "\u7121\u3057"
+    _target: 0
+    _timeng: 0
+    _max: 6
+    _money: 1000
+  - _id: 8
+    _name: "\u4F4E\u7D1A\u874B\u71ED"
+    _describe: "\u970A\u85AC\u3092\u7DF4\u308A\u3053\u3093\u3060\u874B\u71ED\u3002\u5468\u56F2\u306E\u4EBA\u306E\u9B54\u529B\u3092\u56DE\u5FA9\u3055\u305B\u308B\u3002"
+    _group: 1
+    _effect: 300
+    _addEffect: "\u7121\u3057"
+    _target: 1
+    _timeng: 0
+    _max: 10
+    _money: 400
+  - _id: 9
+    _name: "\u9AD8\u7D1A\u874B\u71ED"
+    _describe: "\u9AD8\u4FA1\u306A\u7D20\u6750\u3092\u4F7F\u3063\u305F\u874B\u71ED\u3002\u9B54\u529B\u3092\u5373\u5EA7\u306B\u56DE\u5FA9\u3055\u305B\u308B\u3002"
+    _group: 1
+    _effect: 600
+    _addEffect: "\u7121\u3057"
+    _target: 1
+    _timeng: 0
+    _max: 7
+    _money: 800
+  - _id: 10
+    _name: "\u6D44\u5316\u306E\u8056\u6C34"
+    _describe: "\u72B6\u614B\u7570\u5E38\u56DE\u5FA9"
+    _group: 1
+    _effect: 0
+    _addEffect: "\u72B6\u614B\u7570\u5E38\u89E3\u9664"
+    _target: 1
+    _timeng: 0
+    _max: 10
+    _money: 300
+  - _id: 11
+    _name: "\u6574\u4F53\u306E\u8056\u6C34"
+    _describe: "\u5F31\u4F53\u72B6\u614B\u56DE\u5FA9"
+    _group: 1
+    _effect: 0
+    _addEffect: "\u80FD\u529B\u4F4E\u4E0B\u89E3\u9664"
+    _target: 1
+    _timeng: 0
+    _max: 10
+    _money: 300
+  - _id: 12
+    _name: "\u89E3\u546A\u306E\u8056\u85AC"
+    _describe: "\u795E\u306E\u52A0\u8B77\u3092\u53D7\u3051\u305F\u85AC\u3002\u4F53\u8ABF\u304C\u4E07\u5168\u306B\u306A\u308B\u3002"
+    _group: 1
+    _effect: 0
+    _addEffect: "\u72B6\u614B\u7570\u5E38\u89E3\u9664/\u80FD\u529B\u4F4E\u4E0B\u89E3\u9664"
+    _target: 1
+    _timeng: 0
+    _max: 6
+    _money: 900
+  - _id: 13
+    _name: "\u9EC4\u91D1\u306E\u795E\u9152"
+    _describe: "\u7279\u6B8A\u306A\u7D20\u6750\u3067\u4F5C\u3089\u308C\u305F\u795E\u9152\u3002"
+    _group: 1
+    _effect: "\u5BFE\u8C61HP*0.5"
+    _addEffect: "\u8607\u751F"
+    _target: 0
+    _timeng: 0
+    _max: 8
+    _money: 5000
+  - _id: 14
+    _name: "\u795E\u306E\u706B\u9152"
+    _describe: "\u5E0C\u91C8\u524D\u63D0\u3067\u4F5C\u3089\u308C\u305F\u795E\u9152\u3002\u4EBA\u304C\u98F2\u307F\u3059\u304E\u308B\u3068\u6C17\u7D76\u3059\u308B\u3002"
+    _group: 1
+    _effect: "\u5BFE\u8C61HP*0.8"
+    _addEffect: "\u8607\u751F"
+    _target: 0
+    _timeng: 0
+    _max: 6
+    _money: 10000
+  - _id: 15
+    _name: "\u30A8\u30EA\u30AF\u30B5\u30FC"
+    _describe: "\u4F7F\u3046\u3068\u5B8C\u5168\u56DE\u5FA9"
+    _group: 1
+    _effect: "\u5BFE\u8C61HP*1"
+    _addEffect: "\u72B6\u614B\u7570\u5E38\u89E3\u9664/\u80FD\u529B\u4F4E\u4E0B\u89E3\u9664/\u8607\u751F"
+    _target: 0
+    _timeng: 0
+    _max: 4
+    _money: 200000
+  - _id: 16
+    _name: "\u9EC4\u91D1\u6797\u6A8E"
+    _describe: "\u9B54\u529B\u3092\u4E0A\u6607\u3055\u305B\u308B"
+    _group: 3
+    _effect: 2
+    _addEffect: "\u9B54\u529B"
+    _target: 0
+    _timeng: 0
+    _max: 99
+    _money: 1000
+  - _id: 17
+    _name: "\u7CBE\u795E\u5B89\u5B9A\u5264"
+    _describe: "\u7CBE\u795E\u3092\u4E0A\u6607\u3055\u305B\u308B"
+    _group: 3
+    _effect: 2
+    _addEffect: "\u7CBE\u795E"
+    _target: 0
+    _timeng: 0
+    _max: 99
+    _money: 1000

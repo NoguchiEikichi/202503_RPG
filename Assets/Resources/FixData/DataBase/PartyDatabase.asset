@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f29f8456bb54cf409f35855564ee2a4, type: 3}
+  m_Name: PartyDatabase
+  m_EditorClassIdentifier: 
+  _money: 500
+  _time: 0
+  _partyMemberID: 000000000000000000000000
+  PartyParamData:
+  - _id: 0
+    _Lv: 1
+    _EXP: 0
+    _statusBase:
+      _HP: 300
+      _MP: 500
+      _SP: 100
+      _MAG: 50
+      _MND: 30
+      _AGI: 40
+      _HIT: 100
+      _DEX: 1
+      _CRI: 10
+      _aptitudeFire: 100
+      _resistanceFire: 100
+      _aptitudeWater: 100
+      _resistanceWater: 100
+      _aptitudeWind: 100
+      _resistanceWind: 100
+      _aptitudeEarth: 100
+      _resistanceEarth: 100
+    _statusPlus:
+      _HP: 0
+      _MP: 0
+      _SP: 0
+      _MAG: 0
+      _MND: 0
+      _AGI: 0
+      _HIT: 0
+      _DEX: 0
+      _CRI: 0
+      _aptitudeFire: 0
+      _resistanceFire: 0
+      _aptitudeWater: 0
+      _resistanceWater: 0
+      _aptitudeWind: 0
+      _resistanceWind: 0
+      _aptitudeEarth: 0
+      _resistanceEarth: 0
+    _statusChange:
+      _HP: 0
+      _MP: 0
+      _SP: 0
+      _MAG: 0
+      _MND: 0
+      _AGI: 0
+      _HIT: 0
+      _DEX: 0
+      _CRI: 0
+      _aptitudeFire: 0
+      _resistanceFire: 0
+      _aptitudeWater: 0
+      _resistanceWater: 0
+      _aptitudeWind: 0
+      _resistanceWind: 0
+      _aptitudeEarth: 0
+      _resistanceEarth: 0
+    _statusMain:
+      _HP: 300
+      _MP: 500
+      _SP: 100
+      _MAG: 50
+      _MND: 30
+      _AGI: 40
+      _HIT: 100
+      _DEX: 1
+      _CRI: 10
+      _aptitudeFire: 100
+      _resistanceFire: 100
+      _aptitudeWater: 100
+      _resistanceWater: 100
+      _aptitudeWind: 100
+      _resistanceWind: 100
+      _aptitudeEarth: 100
+      _resistanceEarth: 100
+    statusEffect:
+      deadFLG: 0
+    _weaponID: -1
+    _accessoryIDList: ffffffffffffffffffffffff
+    _magicIDList: 00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - _id: 1
+    _Lv: 1
+    _EXP: 0
+    _statusBase:
+      _HP: 400
+      _MP: 400
+      _SP: 100
+      _MAG: 40
+      _MND: 40
+      _AGI: 50
+      _HIT: 0
+      _DEX: 0
+      _CRI: 0
+      _aptitudeFire: 0
+      _resistanceFire: 0
+      _aptitudeWater: 0
+      _resistanceWater: 0
+      _aptitudeWind: 0
+      _resistanceWind: 0
+      _aptitudeEarth: 0
+      _resistanceEarth: 0
+    _statusPlus:
+      _HP: 0
+      _MP: 0
+      _SP: 0
+      _MAG: 0
+      _MND: 0
+      _AGI: 0
+      _HIT: 0
+      _DEX: 0
+      _CRI: 0
+      _aptitudeFire: 0
+      _resistanceFire: 0
+      _aptitudeWater: 0
+      _resistanceWater: 0
+      _aptitudeWind: 0
+      _resistanceWind: 0
+      _aptitudeEarth: 0
+      _resistanceEarth: 0
+    _statusChange:
+      _HP: 0
+      _MP: 0
+      _SP: 0
+      _MAG: 0
+      _MND: 0
+      _AGI: 0
+      _HIT: 0
+      _DEX: 0
+      _CRI: 0
+      _aptitudeFire: 0
+      _resistanceFire: 0
+      _aptitudeWater: 0
+      _resistanceWater: 0
+      _aptitudeWind: 0
+      _resistanceWind: 0
+      _aptitudeEarth: 0
+      _resistanceEarth: 0
+    _statusMain:
+      _HP: 400
+      _MP: 400
+      _SP: 100
+      _MAG: 40
+      _MND: 40
+      _AGI: 50
+      _HIT: 100
+      _DEX: 1
+      _CRI: 10
+      _aptitudeFire: 100
+      _resistanceFire: 100
+      _aptitudeWater: 100
+      _resistanceWater: 100
+      _aptitudeWind: 100
+      _resistanceWind: 100
+      _aptitudeEarth: 100
+      _resistanceEarth: 100
+    statusEffect:
+      deadFLG: 0
+    _weaponID: -1
+    _accessoryIDList: ffffffffffffffffffffffff
+    _magicIDList: 06000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  - _id: 2
+    _Lv: 1
+    _EXP: 0
+    _statusBase:
+      _HP: 500
+      _MP: 350
+      _SP: 100
+      _MAG: 30
+      _MND: 50
+      _AGI: 30
+      _HIT: 0
+      _DEX: 0
+      _CRI: 0
+      _aptitudeFire: 0
+      _resistanceFire: 0
+      _aptitudeWater: 0
+      _resistanceWater: 0
+      _aptitudeWind: 0
+      _resistanceWind: 0
+      _aptitudeEarth: 0
+      _resistanceEarth: 0
+    _statusPlus:
+      _HP: 0
+      _MP: 0
+      _SP: 0
+      _MAG: 0
+      _MND: 0
+      _AGI: 0
+      _HIT: 0
+      _DEX: 0
+      _CRI: 0
+      _aptitudeFire: 0
+      _resistanceFire: 0
+      _aptitudeWater: 0
+      _resistanceWater: 0
+      _aptitudeWind: 0
+      _resistanceWind: 0
+      _aptitudeEarth: 0
+      _resistanceEarth: 0
+    _statusChange:
+      _HP: 0
+      _MP: 0
+      _SP: 0
+      _MAG: 0
+      _MND: 0
+      _AGI: 0
+      _HIT: 0
+      _DEX: 0
+      _CRI: 0
+      _aptitudeFire: 0
+      _resistanceFire: 0
+      _aptitudeWater: 0
+      _resistanceWater: 0
+      _aptitudeWind: 0
+      _resistanceWind: 0
+      _aptitudeEarth: 0
+      _resistanceEarth: 0
+    _statusMain:
+      _HP: 500
+      _MP: 350
+      _SP: 100
+      _MAG: 30
+      _MND: 50
+      _AGI: 30
+      _HIT: 100
+      _DEX: 1
+      _CRI: 10
+      _aptitudeFire: 100
+      _resistanceFire: 100
+      _aptitudeWater: 100
+      _resistanceWater: 100
+      _aptitudeWind: 100
+      _resistanceWind: 100
+      _aptitudeEarth: 100
+      _resistanceEarth: 100
+    statusEffect:
+      deadFLG: 0
+    _weaponID: -1
+    _accessoryIDList: ffffffffffffffffffffffff
+    _magicIDList: 0300000009000000ffffffffffffffffffffffffffffffffffffffffffffffff
+  itemHaveList:
+  - _id: 0
+    _no: 10
+  - _id: 2
+    _no: 2
+  weaponHaveList:
+  - _id: 0
+    _no: 1
+  - _id: 1
+    _no: 1
+  - _id: 3
+    _no: 1
+  - _id: 4
+    _no: 1
+  - _id: 6
+    _no: 1
+  - _id: 7
+    _no: 1
+  - _id: 9
+    _no: 1
+  - _id: 10
+    _no: 1
+  accessoryHaveList:
+  - _id: 4
+    _no: 3
+  - _id: 5
+    _no: 3
+  - _id: 6
+    _no: 3
+  - _id: 7
+    _no: 3
+  - _id: 8
+    _no: 3
+  - _id: 9
+    _no: 3
+  magicHaveList:
+  - _id: 1
+    _no: 1
+  - _id: 2
+    _no: 1
+  - _id: 4
+    _no: 1
+  - _id: 5
+    _no: 1
+  - _id: 7
+    _no: 1
+  - _id: 8
+    _no: 1
+  - _id: 10
+    _no: 1
+  - _id: 11
+    _no: 1

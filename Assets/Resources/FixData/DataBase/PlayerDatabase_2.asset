@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61004da6c428bce4cad59f7a2b4bdf49, type: 3}
+  m_Name: PlayerDatabase_2
+  m_EditorClassIdentifier: 
+  playerID: 2
+  playerName: "\u30D9\u30EB\u30B7\u30E5"
+  datas:
+  - _level: 1
+    _HP: 500
+    _MP: 350
+    _MAG: 30
+    _MND: 50
+    _AGI: 30
+    _EXP: 0
+  - _level: 2
+    _HP: 600
+    _MP: 450
+    _MAG: 40
+    _MND: 60
+    _AGI: 40
+    _EXP: 100
+  - _level: 3
+    _HP: 700
+    _MP: 550
+    _MAG: 50
+    _MND: 70
+    _AGI: 50
+    _EXP: 200
+  - _level: 4
+    _HP: 800
+    _MP: 650
+    _MAG: 60
+    _MND: 80
+    _AGI: 60
+    _EXP: 300
+  - _level: 5
+    _HP: 900
+    _MP: 750
+    _MAG: 70
+    _MND: 90
+    _AGI: 70
+    _EXP: 400

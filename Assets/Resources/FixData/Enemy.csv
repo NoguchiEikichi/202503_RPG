@@ -1,0 +1,5 @@
+﻿_id,_name,_describe,_HP,_MP,_MAG,_MND,_AGI,_HIT,_DEX,_element,_resistanceFire,_resistanceWater,_resistanceWind,_resistanceEarth,_dropEXP,_dropG,_dropItem1,_dropChance1,_dropItem2,_dropChance2
+0,スライム,あああ,500,0,10,10,10,90,1,水,200,75,100,100,10,10,0,50,16,10
+1,コボルト,いいい,600,30,30,30,35,80,5,土,110,110,100,75,30,30,5,25,8,2
+2,ゴブリン,ううう,600,0,50,50,45,80,1,無,100,100,100,100,50,50,6,25,8,5
+3,フレイムゴブリン,えええ,800,50,100,100,70,100,1,火,50,150,75,110,100,100,15,100,-1,-1
